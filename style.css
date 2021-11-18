@@ -82,14 +82,14 @@ header {
     border-radius: 5px;
     background-color: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 64.58%, #000000 100%);
 }
-.conteudo-pergunta-basico {
+.conteudo-quizz-basico {
     padding-top: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.conteudo-pergunta-basico p {
+.conteudo-quizz-basico p {
     font-family: Roboto;
     font-weight: bold;
     font-size: 23px;
@@ -121,7 +121,7 @@ header {
     font-size: 19px;
     line-height: 22px;
 }
-.conteudo-pergunta-basico button {
+.conteudo-quizz-basico button {
     width: 368.86px;
     height: 54px;
     background: #EC362D;
@@ -132,6 +132,93 @@ header {
     line-height: 25px;
     color: #FFF5F4;
     margin-top: 85px;
+}
+.pergunta-quizz {
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pergunta-quizz p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 27px;
+}
+.criar-pergunta {
+    margin-top: 36px;
+    padding-left: 16px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 600px;
+    height: 825px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+.criar-pergunta p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.criar-pergunta input {
+    width: 564px;
+    height: 46px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 14px;
+}
+.pergunta-resposta {
+    margin-bottom: 14px;
+}
+.respostas-incorretas div {
+    margin-bottom: 25px;
+}
+.placeholder-pergunta {
+    margin-top: 24px;
+    width: 601px;
+    height: 74px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-right: 24px;
+    padding-left: 17px;
+    margin-bottom: 22px;
+}
+.placeholder-pergunta p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.placeholder-pergunta ion-icon {
+    font-size: 26px;
+}
+.pergunta-quizz button {
+    width: 368.86px;
+    height: 54px;
+    background: #EC362D;
+    border-radius: 15px;
+    border: none;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFF5F4;
+    margin-top: 59px;
+    margin-bottom: 100px;
 }
 .escondido {
     display: none;

@@ -32,7 +32,7 @@ header {
     height: 181px;
     border-radius: 5px;
     background-color: #FAFAFA;
-    border: 1px solid #D4D4D4;
+    border: 1px dashed #D4D4D4;
     margin-top: 77px;
     margin-bottom: 77px;
     display: flex;
@@ -116,7 +116,6 @@ header {
     box-sizing: border-box;
     border-radius: 5px;
     font-family: Roboto;
-    font-style: italic;
     font-weight: normal;
     font-size: 19px;
     line-height: 22px;
@@ -171,7 +170,6 @@ header {
     border: 1px solid #D1D1D1;
     border-radius: 5px;
     font-family: Roboto;
-    font-style: italic;
     font-weight: normal;
     font-size: 19px;
     line-height: 22px;
@@ -219,6 +217,57 @@ header {
     color: #FFF5F4;
     margin-top: 59px;
     margin-bottom: 100px;
+}
+.quizz-criado {
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quizz-criado p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 46px;
+    display: flex;
+    justify-content: center;
+}
+.previa-quizz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.previa-quizz div img {
+    width: 500px;
+    height: 266px;
+    background-color: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 65.62%, rgba(0, 0, 0, 0.8) 100%), url(quizz.jpg);
+    border-radius: 5px;
+}
+.acessar-quizz {
+    margin-top: 45px;
+    width: 220.32px;
+    height: 44px;
+    background: #EC362D;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFF5F4;
+    border: none;
+    margin-bottom: 9px;
+}
+.voltar-home {
+    width: 220.32px;
+    height: 44px;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 25px;
+    color: #818181;
+    background-color: #FAFAFA;
+    border: none;
 }
 .escondido {
     display: none;

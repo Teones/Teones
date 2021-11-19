@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -16,12 +16,11 @@
     <header>    
         BuzzQuizz
     </header>
-    <div class="pagina-principal escondido">
+    <div class="pagina-principal">
         <div class="alinharQuiz">
-            <div></div>
             <div class="addQuiz">
                 <div class="mensagem">Você não criou nenhum <br> quizz ainda :( </div>
-                <div class="criarQuizz">Criar Quizz</div>
+                <div class="criarQuizz" onclick="criarQuizz()">Criar Quizz</div>
             </div>
             <div class="todosQuizzes">
                 <p>Todos os Quizzes</p>
@@ -47,10 +46,10 @@
                 <input placeholder="    Quantidade de perguntas do quizz"> <br>
                 <input placeholder="    Quantidade de níveis do quizz">
             </div>
-            <button>Prosseguir pra criar perguntas</button>
+            <button onclick="criarPerguntas()">Prosseguir pra criar perguntas</button>
         </div>
     </div>
-    <div class="pergunta-quizz">
+    <div class="pergunta-quizz escondido">
         <p>Crie suas perguntas</p>
         <div class="criar-pergunta">
             <div class="pergunta-resposta">
@@ -84,6 +83,18 @@
         </div>
         <button>Prosseguir para criar níveis</button>
     </div>
+    <div class="quizz-criado escondido">
+        <div class="previa-quizz">
+            <p>Seu quizz está pronto!</p>
+            <div>
+                <img src="quiz.jpg">
+            </div>
+            <button class="acessar-quizz">Acessar quizz</button>
+            <button class="voltar-home">Voltar pra home</button>
+        </div>
+    </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

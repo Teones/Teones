@@ -1,4 +1,8 @@
-### Hi there 👋
+### Olá, meu nome é Teones
+
+- 🌱 Atualmente sou estudante de desenvolvimento web full stack pela plataforma de ensino online Driven, ao mesmo tempo em que faço parte do corpo discente de Engenharia Civil pela UFCG.  
+- 🤔 Um eterno aprendiz, matando uma curiosidade e gerando novas 3.
+- ⚡ Fanático por esportes, e amante de jogos de tabuleiro.
 
 <!--
 **Teones/Teones** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

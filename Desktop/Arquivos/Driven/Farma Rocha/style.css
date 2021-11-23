@@ -1,0 +1,60 @@
+body {
+    width: 420px;
+    background: #e5e5e5;
+}
+header {
+    width: 420px;
+    height: 50px;
+    background: #00008B;
+    display: flex;
+}
+header ion-icon {
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.divisorHorizontal {
+    width: 1px;
+    height: 30px;
+    background: white;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.logo {
+    width: 150px;
+    height: 30px;
+    background: white;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 80px;
+}
+.pesquisa {
+    width: 420px;
+    height: 40px;
+    background: #00008B;
+    display: flex;
+}
+.barradePesquisa {
+    width: 350px;
+    height: 30px;
+    background: white;
+    margin-left: 35px;
+    margin-top: 2px;
+}
+.destaques {
+  height: 216px;
+  display: flex;
+  gap: 16px;
+  padding-left: 19px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.destaque {
+    width: 172px;
+    height: 216px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    border: 5px solid white;
+}

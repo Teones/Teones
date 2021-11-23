@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+.header {
+    height: 54px;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    border: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.marca {
+    display: flex;
+}
+.marca ion-icon {
+    font-size: 20px;
+}
+.marca .divisorHorizontal {
+    height: 22px;
+    width: 1px;
+    background: #DBDBDB;
+    margin: 0 10px;
+}
+.marca img {
+    width: 103px;
+    height: 29px;
+}
+input {
+    width: 215px;
+    height: 28px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    padding-left: -20px;
+}
+input::placeholder {
+    font-size: 12px;
+    text-align: center;
+    font-family: roboto;
+}
+.icones ion-icon {
+    font-size: 20px;
+    border: 1,38px solid #000000;
+    padding-left: 20px;
+}
+
+.conteudo {
+    margin-top: 88px;
+}
+.stories {
+    width: 614px;
+    height: 118px;
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-left: 215px;
+    overflow: scroll;
+    margin-bottom: 24px;
+}
+.story {
+    width: 66px;
+    height: 86px;
+    padding: 18px 0;
+    margin-left: 18px;
+}
+.story .perfil {
+    height: 66px;
+    width: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Imagens/stories_background.jpg);
+    background-size: cover;
+}
+.story img {
+    height: 56px;
+    border-radius: 50%;
+}
+.story p {
+    font-family: roboto;
+    font-size: 12px;
+    text-align: center;
+    color: #262626;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 1px;
+}
+
+.posts {
+    width: 614px;
+    margin-left: 215px;
+}
+.posts .topo-post {
+    height: 60px;
+    width: 614px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+}
+.posts .topo-post .quemPostou {
+    height: 32px;
+    display: flex;
+    margin: 15px;
+}
+.posts .topo-post img {
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.posts .topo-post ion-icon {
+    font-size: 20px;
+    margin: 20px;
+}
+.posts .imagem img {
+    width: 612px;
+    height: 612px;
+}
+.opcoes {
+    height: 76px;
+    width: 612px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 14px;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.opcoes .acoes ion-icon {
+    margin-left: 10px;
+}

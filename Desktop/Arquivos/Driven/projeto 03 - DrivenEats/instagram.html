@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset.css" />
+  
+  <title>instagram.com</title>
+</head>
+<body>
+  <header>
+    <h1>Siri Cascudo</h1>
+    <h2>Sua comida em 6 minutos</h2>
+  </header>
+  <div class="site">
+    <!--Prato-->
+    <div class="comando">Primeiro, seu prato</div>
+    <div class="menu">
+      <div id="hamburguer" class="produto" onclick="escolherHamburguer()">
+        <img src="Imagens/hamburguer-de-siri.jpg">
+        <h3>Hamburguer de Siri</h3>
+        <p class="descricao">Especialidade do cheff Bob Esponja</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+    <div id="lasanha" class="produto" onclick="escolherLasanha()">
+      <img src="Imagens/lasanha-do-garfield.jpg">
+      <h3>Lasanha Garfield</h3>
+      <p class="descricao">Com selo de qualidade Garfield</p>
+      <p class="preco">R$ 15,00</p>
+    </div>
+    <div id="pizza" class="produto" onclick="escolherPizza()">
+      <img src="Imagens/pizza.png">
+      <h3>Pizza Ninja</h3>
+      <p class="descricao">Fonte de força para tartarugas ninja</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+  </div>
+  <!--Bebida-->
+  <div class="comando">Agora, sua bebida</div>
+  <div class="menu">
+    <div id="duff" class="produto" onclick="escolherDuff()">
+      <img src="Imagens/duff .jpg">
+      <h3>Duff Beer</h3>
+      <p class="descricao">Inigualavel Duff Uhuul Springfield</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+    <div id="coca" class="produto" onclick="escolherCoca()">
+      <img src="Imagens/coca-cola-star-wars.jpg">
+      <h3>Drink Star Wars</h3>
+      <p class="descricao">Que a força esteja com você</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+    <div id="cerveja" class="produto" onclick="escolherCerveja()">
+      <img src="Imagens/cerveja-amanteigada.jpg">
+      <h3>Cerveja Amanteigada</h3>
+      <p class="descricao">Diretamento do universo Harry potter</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+  </div>
+  <!--Sobremesa-->
+  <div class="comando">Por fim, sua sobremesa</div>
+  <div class="menu">
+    <div id="biscoito" class="produto" onclick="escolherBiscoito()">
+      <img src="Imagens/biscoito-scooby.jpg">
+      <h3>Hamburguer de Siri</h3>
+      <p class="descricao">Especialidade do cheff Bob Esponja</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+    <div id="donut" class="produto"onclick="escolherDonut()">
+      <img src="Imagens/donut-simpsons.jpg">
+      <h3>Hamburguer de Siri</h3>
+      <p class="descricao">Especialidade do cheff Bob Esponja</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+    <div id="chocolate" class="produto"onclick="escolherChocolate()">
+      <img src="Imagens/chocolate-wonka.jpg">
+      <h3>Hamburguer de Siri</h3>
+      <p class="descricao">Especialidade do cheff Bob Esponja</p>
+      <p class="preco">R$ 20,00</p>
+    </div>
+  </div>
+</div>
+  <!--Botão Finalizar Pedido-->
+  <div class="base">
+    <div id="botao" class="botao" onclick="finalizarPedido()">
+      <p>Selecione os 3 itens para fechar o pedido</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

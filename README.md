@@ -1,6 +1,6 @@
 ### Olá, meu nome é Teones
 
-- 🌱 Atualmente sou estudante de desenvolvimento web full stack pela plataforma de ensino online Driven e discente de Ciências da Computação pela UEPB.  
+- 🌱 Atualmente sou estudante de desenvolvimento web full stack pela plataforma de ensino online Driven e discente de Ciências da Computação pela UFCG.  
 - 🤔 Um eterno aprendiz, matando uma curiosidade e gerando novas 3.
 - ⚡ Fanático por esportes, e amante de jogos de tabuleiro.
 
